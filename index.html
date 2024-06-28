@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology and Gadgets Image Gallery</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="mainImg" id="imgBox">
+        <img id="mainImg" src="" alt="Image">
+        <span onclick="closeMainImg()">X</span>
+    </div>
+
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="Images/mobile.jpg" alt="Latest Smartphone" onclick="openMainImg(this.src)">
+            <div class="caption">Latest Smartphone</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/laptop.jpg" alt="Sleek Laptop Design" onclick="openMainImg(this.src)">
+            <div class="caption">Sleek Laptop Design</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/Watchs.jpg" alt="Smartwatch in Action" onclick="openMainImg(this.src)">
+            <div class="caption">Smartwatch in Action</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/camera.jpeg" alt="High-Resolution Camera" onclick="openMainImg(this.src)">
+            <div class="caption">High-Resolution Camera</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/gaming.webp" alt="Gaming Console" onclick="openMainImg(this.src)">
+            <div class="caption">Gaming Console</div>
+        </div>
+        <div class="gallery-item">
+            <img src="Images/earbuds.jpg" alt="Wireless Earbuds" onclick="openMainImg(this.src)">
+            <div class="caption">Wireless Earbuds</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
